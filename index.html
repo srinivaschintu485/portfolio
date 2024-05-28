@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivas Pendotagaya's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a3d0 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main h2 {
+            margin-top: 0;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Srinivas Pendotagaya</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore my professional journey, projects, and accomplishments.</p>
+        </div>
+    </section>
+
+    <div class="container main">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Dedicated AI Programmer with 8+ years of experience in Python, C/C++, SQL, MATLAB, and Arduino programming. Skilled in machine learning frameworks such as TensorFlow, PyTorch, and Scikit Learn with expertise in RNNs, CNNs, Transformers, and LSTMs. Proficient in software tools like PyCharm, Jupyter Notebook, and Visual Studio and experienced in hardware platforms like Arduino and Raspberry Pi. Familiar with cloud platforms including Microsoft Azure AI Fundamentals and AWS as well as containerization tools like Kubernetes and big data frameworks such as Apache Spark.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Research Assistant and Instructional Assistant at University of North Texas</h3>
+            <p><strong>CoVIS Lab UNT (Sep. 2022 - current)</strong></p>
+            <p>Lead Developer and Designer for a NASA-funded project to improve water-use data collection for crop irrigation covering 20% of US cultivated land but using 42% of freshwater withdrawals. Achieved 98% accuracy in classification surpassing state-of-the-art models.</p>
+
+            <h3>Lead NLP Engineer at TECH iNSPiRON</h3>
+            <p><strong>(July 2016 – July 2022)</strong></p>
+            <p>Utilized diverse techniques including SVM, Logistic Regression, LSTM, and CNN for text classification. Leveraged tools like scikit-Learn, Keras, and TensorFlow in CPU/GPU environments achieving state-of-the-art performance. Implemented reproducible models through Docker, deploying them on AWS ECR Repositories/S3 artifacts using Jenkins CI/CD orchestration.</p>
+
+            <h3>Application Developer at EMPORIS</h3>
+            <p><strong>(Nov 2014 – June 2016)</strong></p>
+            <p>Worked extensively with Arduino, Raspberry Pi, and IoT technologies. Contributed to product development, application support plans, and prototype programs. Designed new application systems to enhance client requirements for mobile computing capabilities.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Siamese Net Mapping of Irrigation Practices in Satellite Images</h3>
+            <p>Lead Developer and Designer at CoVIS Lab UNT (June 2023 - Jan 2024). Pioneered Siamese Network research for agricultural field classification.</p>
+
+            <h3>Irrigation Practice Mapping from Satellite Images Using Deep Convolutional Networks</h3>
+            <p>Lead Developer and Designer at CoVIS Lab UNT (Sept. 2022 - May 2023). Implemented an innovative segmentation approach using field segment super pixels.</p>
+
+            <h3>Landscape Generation with GANs</h3>
+            <p>Developed a generative adversarial network (GAN) to create realistic images of imaginary landscapes for virtual reality environments.</p>
+
+            <h3>Sentiment Analysis with BERT</h3>
+            <p>Implemented a sentiment analysis system using HuggingFace's pre-trained BERT model to classify customer reviews in an e-commerce platform.</p>
+
+            <h3>Bias Mitigation in Loan Approval System</h3>
+            <p>Collaborated on a project to assess and mitigate biases in a loan approval system using the Fair learn framework.</p>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <p><strong>An Accelerometer Based Digital Pen with A Trajectory Recognition Algorithm For Handwritten Digit And Gesture Recognition</strong></p>
+            <p><strong>Wireless Intelligent Accurate Bridge Deck Crack Inspection and Mapping</strong></p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p><strong>Advanced:</strong> Machine Learning, Deep Learning, Image Processing, Data Mining, Time-Series Forecasting, Data Visualization, Neural Networks, Information Retrieval and Extraction</p>
+            <p><strong>Intermediate:</strong> Natural Language Processing (NLP), Predictive Modeling, LLM</p>
+            <p><strong>Programming Languages:</strong> Python, C, C++, SQL, Arduino Programming, MATLAB, Embedded C</p>
+            <p><strong>Software:</strong> PyCharm, Jupyter Notebook, Visual Studio, code blocks, MATLAB, MySQL, Arduino, Raspberry Pi</p>
+            <p><strong>Tools and Devices:</strong> Scikit Learn, TensorFlow, PyTorch, CNTK, Keras, Apache MX Net, ArduinoRNNs, Node-RED, Raspberry Pi, Esp8266, Opencv, Kubernetes, Apache Spark</p>
+            <p><strong>Cloud:</strong> Microsoft Azure AI Fundamentals, AWS</p>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <p>Internet of Things (2019) - Online course by Cognixia</p>
+            <p>Advanced Deep Learning and Computer Vision (2021) - Online course by SimpliLearn</p>
+            <p>Machine Learning (2021) - Online course by Professor Andrew N.G. (Coursera)</p>
+            <p>Data Science with Python (2021) - Online course by SimpliLearn</p>
+            <p>Deep Learning with TensorFlow (2021) - Online Course by IBM</p>
+            <p>Deep Learning (2021) - Online course by SimpliLearn</p>
+            <p>AI Capstone (2021) - Online course by SimpliLearn</p>
+            <p>Deep Learning with Keras and TensorFlow (2021) - Online course by SimpliLearn</p>
+            <p>Machine Learning Advanced Certification Training (2021) - Online course by SimpliLearn</p>
+            <p>Natural Language Processing (2021) - Online course by SimpliLearn</p>
+            <p>Natural Language Processing in TensorFlow (2024) - Online course by Coursera</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>M.Sc. in Artificial Intelligence</strong> (GPA: 4.0/4.0) - University of North Texas, Denton, TX, U.S. (Aug. 2022 – May 2024)</p>
+            <p><strong>M.Sc. in VLSI and Embedded Systems</strong> (GPA: 3.3/4.0) - JNTUH, Hyderabad, Telangana, India (June 2012 – July 2014)</p>
+            <p><strong>Bachelors in Electronics and Communication Engineering</strong> (GPA: 3.06/4.0) - JNTUH, Hyderabad, Telangana, India (Aug. 2008 – March 2012)</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Srinivas Pendotagaya &copy; 2024</p>
+        <p><a href="mailto:srinivaschintu.485@gmail.com">srinivaschintu.485@gmail.com</a> | <a href="https://www.linkedin.com/in/pendotagaya-srinivas">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
